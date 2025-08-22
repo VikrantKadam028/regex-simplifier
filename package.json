@@ -17,7 +17,7 @@
       "validation",
       "text-processing"
     ],
-    "author": "Your Name",
+    "author": "VikrantKK",
     "license": "MIT",
     "repository": {
       "type": "git",
@@ -33,4 +33,5 @@
       "src/",
       "README.md"
     ]
+
   }
