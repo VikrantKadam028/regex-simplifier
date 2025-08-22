@@ -1,5 +1,11 @@
 ## @vikrant_kadam/regex-simplifier
 
+![npm](https://img.shields.io/npm/v/@vikrant_kadam/regex-simplifier?style=for-the-badge&color=blue)
+![npm downloads](https://img.shields.io/npm/dw/@vikrant_kadam/regex-simplifier?style=for-the-badge&color=green)
+![license](https://img.shields.io/npm/l/@vikrant_kadam/regex-simplifier?style=for-the-badge&color=yellow)
+![issues](https://img.shields.io/github/issues/VikrantKadam028/regex-simplifier?style=for-the-badge&color=red)
+
+
 ## 🌟 Overview 
 The **@vikrant_kadam/regex-simplifier** is a lightweight and intuitive npm package designed to make working with regular expressions easier for developers of all skill levels.  
 It abstracts away the complex syntax of regex by providing a set of simple, human-readable functions.
@@ -39,5 +45,6 @@ Feel free to check the issues page or submit a pull request.
 ---
 
 ## License
+
 
 MIT License © 2025 **Vikrant Kadam**
