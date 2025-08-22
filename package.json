@@ -1,0 +1,36 @@
+{
+    "name": "@vikrant_kadam/regex-simplifier",
+    "version": "1.0.4",
+    "description": "Convert between plain English and regex patterns with ease",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+      "test": "node test.js",
+      "start": "node index.js"
+    },
+    "keywords": [
+      "regex",
+      "regular-expression",
+      "pattern",
+      "english",
+      "converter",
+      "validation",
+      "text-processing"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/VikrantKadam028/regex-simplifier.git"
+    },
+    "bugs": {
+      "url": "https://github.com/VikrantKadam028/regex-simplifier/issues"
+    },
+    "homepage": "https://github.com/VikrantKadam028/regex-simplifier#readme",
+
+    "files": [
+      "index.js",
+      "src/",
+      "README.md"
+    ]
+  }
