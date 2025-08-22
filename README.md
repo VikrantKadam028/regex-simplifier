@@ -29,6 +29,40 @@ npm install @vikrant_kadam/regex-simplifier
 ```
 ---
 
+## 🚀 Usage Examples
+This guide provides a set of examples demonstrating how to use the functions from the regex-simplifier library.
+
+## English to Regex
+This command converts a plain English phrase into a regular expression pattern.
+```bash
+const { englishToRegex } = require("@vikrant_kadam/regex-simplifier")
+const pattern = englishToRegex("an email address")
+console.log(pattern) 
+# => /^[\w.-]+@[\w.-]+\.\w{2,}$/
+
+```
+
+## Regex to English
+This command translates a regular expression pattern into a human-readable English description.
+```bash
+const { regexToEnglish } = require("@vikrant_kadam/regex-simplifier")
+
+console.log(regexToEnglish(/^\d{3}-\d{2}-\d{4}$/))
+# => Matches a number in the format 3 digits-2 digits-4 digits
+
+```
+
+## Test Regex
+This command tests whether a given string matches a specific regular expression pattern.
+```bash
+const { testRegex } = require("@vikrant_kadam/regex-simplifier")
+
+console.log(testRegex(/hello/i, "Hello World"))
+# => true
+
+```
+---
+
 ## Contributing
 
 Contributions, issues, and feature requests are welcome!
@@ -48,3 +82,4 @@ Feel free to check the issues page or submit a pull request.
 
 
 MIT License © 2025 **Vikrant Kadam**
+
